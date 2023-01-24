@@ -1,12 +1,12 @@
 import "reflect-metadata";
 import express from "express";
-import handleErrorMiddleware from "./middlewares/errorHandling.middleware";
 import "express-async-errors";
 import userRoutes from "./routes/user.routes";
 import loginRoutes from "./routes/login.routes";
 import categoriesRoutes from "./routes/categories.routes";
 import propertiesRoutes from "./routes/properties.routes";
 import schedulesRoutes from "./routes/schedules.routes";
+import handleErrorMiddleware from "./middlewares/errorHandling.middleware";
 
 const app = express();
 
